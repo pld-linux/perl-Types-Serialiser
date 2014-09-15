@@ -8,7 +8,7 @@
 Summary:	Types::Serialiser - simple data types for common serialisation formats
 Name:		perl-Types-Serialiser
 Version:	1.0
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/M/ML/MLEHMANN/Types-Serialiser-1.0.tar.gz
@@ -51,6 +51,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Types
 %{perl_vendorlib}/Types/*.pm
 %{perl_vendorlib}/Types/Serialiser
 %{_mandir}/man3/*
