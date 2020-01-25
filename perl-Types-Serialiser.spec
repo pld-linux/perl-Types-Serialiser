@@ -4,7 +4,6 @@
 #
 %define		pdir	Types
 %define		pnam	Serialiser
-%include	/usr/lib/rpm/macros.perl
 Summary:	Types::Serialiser - simple data types for common serialisation formats
 Name:		perl-Types-Serialiser
 Version:	1.0
